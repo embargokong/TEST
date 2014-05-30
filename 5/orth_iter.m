@@ -1,5 +1,6 @@
 function [ s ] = orth_iter(A,p,iter)
-%Calculates the p largest eigenvalues of A (with it iterations),
+%NOT WORKING
+%Calculates the p largest eigenvalues of A (with iter iterations),
 %using the orthogonal iteration method. Returns a row vector with the 
 % values in decreasing order.
 n = size(A,1);
